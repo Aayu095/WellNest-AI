@@ -10,20 +10,12 @@ import {
 
 export async function registerRoutes(app: Express): Promise<Server> {
   
-  // Health check endpoint for Railway
+  // Health check endpoint for Render
   app.get("/api/health", (req, res) => {
     res.status(200).json({ 
       status: "healthy", 
       timestamp: new Date().toISOString(),
       service: "WellNest.AI"
-    });
-  });
-
-  // Root endpoint
-  app.get("/", (req, res) => {
-    res.status(200).json({ 
-      message: "WellNest.AI API is running",
-      status: "healthy"
     });
   });
   
