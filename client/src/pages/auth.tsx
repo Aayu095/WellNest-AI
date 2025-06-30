@@ -124,10 +124,12 @@ export default function Auth() {
       >
         <Card className="w-full max-w-md mx-auto bg-white/80 dark:bg-gray-800/90 backdrop-blur-sm border-0 shadow-2xl dark:shadow-gray-900/50">
           <Tabs defaultValue="login" className="w-full">
-            <TabsList className="grid w-full grid-cols-2 bg-gray-100 dark:bg-gray-700 rounded-2xl p-1 m-4">
-              <TabsTrigger value="login" className="rounded-xl data-[state=active]:bg-white dark:data-[state=active]:bg-gray-600 data-[state=active]:text-gray-900 dark:data-[state=active]:text-white text-gray-600 dark:text-gray-300">Sign In</TabsTrigger>
-              <TabsTrigger value="signup" className="rounded-xl data-[state=active]:bg-white dark:data-[state=active]:bg-gray-600 data-[state=active]:text-gray-900 dark:data-[state=active]:text-white text-gray-600 dark:text-gray-300">Sign Up</TabsTrigger>
-            </TabsList>
+            <div className="p-6 pb-0">
+              <TabsList className="grid w-full grid-cols-2 bg-gray-100 dark:bg-gray-700 rounded-2xl p-1">
+                <TabsTrigger value="login" className="rounded-xl data-[state=active]:bg-white dark:data-[state=active]:bg-gray-600 data-[state=active]:text-gray-900 dark:data-[state=active]:text-white text-gray-600 dark:text-gray-300">Sign In</TabsTrigger>
+                <TabsTrigger value="signup" className="rounded-xl data-[state=active]:bg-white dark:data-[state=active]:bg-gray-600 data-[state=active]:text-gray-900 dark:data-[state=active]:text-white text-gray-600 dark:text-gray-300">Sign Up</TabsTrigger>
+              </TabsList>
+            </div>
             
             <TabsContent value="login" className="px-6 pb-6">
               <form onSubmit={handleLogin} className="space-y-4">
