@@ -41,13 +41,20 @@ WellNest.AI is a modern, responsive web application that combines multiple AI ag
 
 ## 🚀 Features
 
-- ✨ **Modern UI/UX**: Clean, responsive design with dark/light mode support
-- 🤖 **AI-Powered Conversations**: Natural language interactions with specialized agents
-- 📱 **Mobile-First Design**: Optimized for mobile devices with PWA capabilities
-- 🔐 **Secure Authentication**: User authentication and session management
-- 🎨 **Customizable Themes**: Light and dark mode with smooth transitions
-- 📊 **Real-time Analytics**: Live insights and progress tracking
-- 🔄 **Agent Collaboration**: Agents work together for comprehensive wellness support
+- 🤖 **5 Specialized AI Agents**: MoodMate, NutriCoach, FlexGenie, MindPal, and InsightBot working collaboratively
+- 🎵 **Smart Music Therapy**: AI-powered mood-based music recommendations via Spotify integration
+- 🥗 **Personalized Nutrition**: AI-generated meal plans and nutritional analysis via Edamam API
+- 🏋️ **Adaptive Fitness**: Mood-aware workout recommendations with YouTube video integration
+- 📊 **Advanced Sentiment Analysis**: Real-time mood detection from text using HuggingFace AI
+- 🔄 **Agent Collaboration**: Cross-agent communication for holistic wellness recommendations
+- 📝 **Smart Journaling**: AI-powered prompts with mood integration and pattern analysis
+- 📈 **Predictive Analytics**: AI-driven health insights and trend predictions
+- 🏆 **Gamification System**: Achievement tracking, streaks, and milestone celebrations
+- 🌓 **Dark/Light Mode**: Dynamic theming with system preference detection
+- 📱 **Mobile-First PWA**: Responsive design with offline capabilities
+- 🔐 **Secure Authentication**: Privacy-first approach with encrypted data storage
+- ⚡ **Real-time Chat**: Live conversations with markdown support and memory
+- 🎨 **Modern UI/UX**: Glassmorphism effects with smooth Framer Motion animations
 
 ## 🛠️ Tech Stack
 
@@ -101,7 +108,7 @@ WellNest.AI is a modern, responsive web application that combines multiple AI ag
    ```
 
 5. **Open your browser**
-   Navigate to `http://localhost:5173`
+   Navigate to `http://localhost:3001`
 
 ## 🔑 API Setup
 
@@ -216,21 +223,6 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🆘 Support
-
-- 📧 Email: support@wellnest.ai
-- 💬 Discord: [Join our community](https://discord.gg/wellnest-ai)
-- 📖 Documentation: [Full docs](https://docs.wellnest.ai)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/wellnest-ai/issues)
-
-## 🙏 Acknowledgments
-
-- [Groq](https://groq.com) for AI language processing
-- [Spotify](https://developer.spotify.com) for music integration
-- [Edamam](https://developer.edamam.com) for nutrition data
-- [YouTube](https://developers.google.com/youtube) for fitness content
-- [HuggingFace](https://huggingface.co) for ML models
 
 ## 📊 Project Status
 
